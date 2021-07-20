@@ -1,0 +1,47 @@
+h2{color:aquamarine;
+text-align: center;}
+
+.heading{
+background-color: antiquewhite;
+display:flex;
+
+justify-content:space-evenly ;
+}
+.allgames{
+display:flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+margin: 50px;
+
+}
+body{
+    background-color:yellowgreen
+}
+
+p{
+margin-left: 10px;
+padding-top: 15px;
+
+}
+.game{
+position:relative;
+
+
+}
+.game h2{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity:0;
+}
+.game:hover h2{
+opacity:1;
+color: fuchsia;
+}
+.game:hover img{
+opacity:0.33;
+
+
+}
+
